@@ -6,8 +6,21 @@
   </head>
   <body>
     <!-- Write your markup here -->
+    <h1>Change Calculator</h1>
+    
+    <strong id="due">Amount Due:</strong>
+    <input id="amount-due" type="text" placeholder="Total Amount Due">
+    <strong id="received">Amount Received:</strong>
+    <input id="amount-received" type="text" placeholder="Total Amount Received">
 
+    <button id="calculate-change" onclick="handleClickEvent() "> Calculate </button>
+    <strong id="total-change"></strong>
+      <p id="dollars-output" class="col-sm">Dollars</p>
+      <p id="quarters-output" class="col-sm">Quarters</p>
+      <p id="dimes-output" class="col-sm">Dimes</p>
+      <p id="nickels-output" class="col-sm">Nickels</p>
+      <p id="pennies-output" class="col-sm">Pennies</p>
     <!-- Don't forget to add your <script> tag here -->
-
+    <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
