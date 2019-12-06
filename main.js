@@ -38,7 +38,7 @@ function handleClickEvent(e) {
         pennyRemainder = ((((result % 100) % 25) % 10) % 5) / 1;
         // console.log(dollarRemainder, 'dollarRemainder in else')
     }
-    
+    //
     // var dollarRemainder = 
     // var quarterRemainder = result % .25;
     
